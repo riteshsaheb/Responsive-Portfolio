@@ -237,26 +237,16 @@ input[type=submit] {
   .container{
     width: 100%;
   }
-  #masthead {
-    line-height: 10px;
-  }
-  nav {
-    float: left;
-    margin-top: 5px;
-  }
-
   #logo {
-    /*float: left;
-    width: 200px;
-    height: 30px;
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 30px;
-    color: #ffffff;
-    text-align: center;
-    text-decoration: none;
-    background: #4aaaa5;*/
     width: 100%;
+    position: fixed;
+    top: 0px;
+    height: 90px;
+  }  
+  nav {
+    /* float: right; */
+    margin-top: 105px;
+    margin-right: 110px;
   }
+  
 }
